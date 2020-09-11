@@ -66,3 +66,18 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+<!-- Execute CRA(create-react-app) -->
+npx create-react-app ec-app
+
+<!-- Configure Firebase Project
+SignIn to your google account -->
+fireabase login
+
+<!-- Init your local environment to connect Firebase project -->
+firebase init
+
+<!-- Install npm packages
+Install react, redux, firebase, material-ui packages -->
+npm install --save @material-ui/core @material-ui/icons @material-ui/styles connected-react-router firebase history react-redux react-router redux redux-actions redux-logger redux-thunk reselect
